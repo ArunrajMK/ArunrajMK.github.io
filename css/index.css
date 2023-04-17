@@ -79,6 +79,11 @@ img {
   display: block;
 }
 
+.project-image{
+  height: 200px;
+  width: 100%;
+}
+
 /*===== CLASS CSS ===== */
 .section-title {
   position: relative;
