@@ -68,7 +68,7 @@ sr.reveal(".about-text", { delay: 200 });
 //   /*SCROLL SKILLS*/
 // sr.reveal( ".skills-subtitle", {} );
 sr.reveal(".skills-text", {});
-sr.reveal(".skills-data", { interval: 100 });
+sr.reveal(".skills-data", { interval: 50 });
 //   sr.reveal(".skills-img", { delay: 600 });
 
 //   /*SCROLL projects*/
