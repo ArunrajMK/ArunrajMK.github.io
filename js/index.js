@@ -93,22 +93,28 @@ GitHubCalendar(".calendar", "ArunrajMK", { responsive: true });
 document.getElementById("downloadResume").addEventListener("click",handleResumeDownload)
 
 function handleResumeDownload() {
- console.log("working")
- const link = document.createElement("a");
- window.open("https://drive.google.com/file/d/1q3joBoKnk1mKjsBk6S7UF1PTMDHCiN6y/view?usp=sharing", "_blank");
- link.download = "./img/Arunraj Mk_MERN-stack-developer.pdf";
- document.body.appendChild(link);
- link.click();
- document.body.removeChild(link);
- // If download attribute is not supported, open the file in a new window
- setTimeout(() => {
-   if (!document.querySelector(":active")) {
-     window.open("https://drive.google.com/file/d/1q3joBoKnk1mKjsBk6S7UF1PTMDHCiN6y/view?usp=sharing", "_blank");
-   }
- }, 100);
+ 
+const link = document.createElement("a");
+window.open("https://drive.google.com/file/d/1q3joBoKnk1mKjsBk6S7UF1PTMDHCiN6y/view?usp=sharing", "_blank");
+link.download = "./img/Arunraj Mk_MERN-stack-developer.pdf";
+document.body.appendChild(link);
+link.click();
+document.body.removeChild(link);
 }
 
 
+document.getElementById("downloadResumes").addEventListener("click",handleResumeDownload)
 
+  function handleResumeDownload() {
+   console.log("working")
+   const link = document.createElement("a");
+   window.open("https://drive.google.com/file/d/1q3joBoKnk1mKjsBk6S7UF1PTMDHCiN6y/view?usp=sharing", "_blank");
+   link.download = "./img/Arunraj Mk_MERN-stack-developer.pdf";
+   document.body.appendChild(link);
+   link.click();
+   document.body.removeChild(link);
+   // If download attribute is not supported, open the file in a new window
+   
+ }
 
 /* fully completed */
