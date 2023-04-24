@@ -96,7 +96,7 @@ function handleResumeDownload() {
  
 const link = document.createElement("a");
 window.open("https://drive.google.com/file/d/1q3joBoKnk1mKjsBk6S7UF1PTMDHCiN6y/view?usp=sharing", "_blank");
-link.download = "./img/Arunraj Mk_MERN-stack-developer.pdf";
+link.download = "./img/Arunraj Mk_Resume.pdf";
 document.body.appendChild(link);
 link.click();
 document.body.removeChild(link);
@@ -109,7 +109,7 @@ document.getElementById("downloadResumes").addEventListener("click",handleResume
    console.log("working")
    const link = document.createElement("a");
    window.open("https://drive.google.com/file/d/1q3joBoKnk1mKjsBk6S7UF1PTMDHCiN6y/view?usp=sharing", "_blank");
-   link.download = "./img/Arunraj Mk_MERN-stack-developer.pdf";
+   link.download = "./img/Arunraj Mk_Resume.pdf";
    document.body.appendChild(link);
    link.click();
    document.body.removeChild(link);
